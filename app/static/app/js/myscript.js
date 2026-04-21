@@ -25,7 +25,11 @@ $('#slider1, #slider2, #slider3').owlCarousel({
 $('.plus-cart').click(function () {
     var id = $(this).attr("pid").toString();
     var eml = this.parentNode.children[2];
+<<<<<<< HEAD
     //console.log(id);
+=======
+    console.log(id);
+>>>>>>> dcd24600bceab19c46520bf27d9ad9fe3007beba
     $.ajax(
         {
             type: "GET",
